@@ -31,10 +31,20 @@ header {
   position:fixed;
   top:2rem;
 }
+#waitlist {
+  font-size:2rem;
+}
+#class {
+  display:flex;
+  flex-direction: row;
+}
+section {
+  width:50%;
+}
 #classes {
   font-size:3rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 #classes>div {
   width:4rem;
@@ -50,14 +60,17 @@ header {
 #classes>div:focus {
   background-color: #ccc;
 }
-#back_wrap {
-  width:100vw;
-  position:fixed;
-  bottom:2rem;
-  left:0;
-  display:flex;
-  align-items: center;
-  justify-content: center;
+footer {
+  position: fixed;
+    bottom: 2rem;
+    left: 0;
+}
+#buttons_wrap {
+  width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 #back,
 #forward {
