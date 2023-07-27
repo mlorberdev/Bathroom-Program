@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restroom</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./favicon.webp" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Restroom / Baño</h1>
+    <h4>No visits in the first <span class="bold big">10</span> or last <span class="bold big">10</span> minutes of class</h4>
+    <h4>Sin visitas en los primeros <span class="bold big">10</span> o últimos <span class="bold big">10</span> minutos de clase</h4>
+  </header>
+
+  <main>
+
+    <!-- MAIN PAGE / CLASS SELECT -->
+    <article id="class">
+      <h2>Class / Clase</h2>
+      <section id="classes">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+      </section>
+    </article>
+
+    <!-- SECOND PAGE / USER SELECT -->
+    <article id="classlist" class="none">
+      <section id="class1" class="cc none">
+        <fieldset>
+          <legend>Class 1</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      <section id="class2" class="cc none">
+        <fieldset>
+          <legend>Class 2</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      <section id="class3" class="cc none">
+        <fieldset>
+          <legend>Class 3</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      <section id="class4" class="cc none">
+        <fieldset>
+          <legend>Class 4</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      <section id="class5" class="cc none">
+        <fieldset>
+          <legend>Class 5</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      <section id="class6" class="cc none">
+        <fieldset>
+          <legend>Class 6</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      <section id="class7" class="cc none">
+        <fieldset>
+          <legend>Class 7</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      <section id="class8" class="cc none">
+        <fieldset>
+          <legend>Class 8</legend>
+          <ul></ul>
+        </fieldset>
+      </section>
+      
+    </article>
+
+    <!-- BACK BUTTON -->
+    <section id="back_wrap">
+      <svg id="back" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10.011,10.011,0,0,1,12,22Z" />
+        <path
+          d="M18,11H8.414l2.293-2.293A1,1,0,1,0,9.293,7.293l-4,4a1,1,0,0,0,0,1.414l4,4a1,1,0,0,0,1.414-1.414L8.414,13H18a1,1,0,0,0,0-2Z" />
+      </svg>
+      <svg id="forward">
+        <use href="#back" />
+      </svg>
+    </section>
+
+  </main>
+
+  <script defer src="./script.js"></script>
+  <script defer src="./routes.js"></script>
+</body>
+
+</html>
