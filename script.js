@@ -1,5 +1,9 @@
 !(function () {
   
+  // https://www.youtube.com/watch?v=8T5ZfzrCGis
+  // Google sheets reader (need to write also)
+
+
   // VARS
   const cls = document.getElementById("class");
   const cll = document.getElementById("classlist");
